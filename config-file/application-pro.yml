@@ -1,4 +1,4 @@
 cn:
   springcloud:
     book:
-      config: I am the git configuration file from pro environment
+      config: I am the git configuration file from pro environment，add more...
