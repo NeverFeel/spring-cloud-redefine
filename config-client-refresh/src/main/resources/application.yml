@@ -1,0 +1,20 @@
+server:
+  port: 9093
+
+spring:
+  application:
+    name: config-client-refresh
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #来表示包含所有端点的信息，默认情况下，只是打开了info、health的端点
+        include: "*"
+
+  endpoint:
+    health:
+      #表示详细信息的显示。
+      show-details: always
+

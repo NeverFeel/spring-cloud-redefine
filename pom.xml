@@ -15,6 +15,7 @@
         <module>eureka-client01</module>
         <module>config-server</module>
         <module>config-client-git</module>
+        <module>config-client-refresh</module>
     </modules>
 
     <properties>
