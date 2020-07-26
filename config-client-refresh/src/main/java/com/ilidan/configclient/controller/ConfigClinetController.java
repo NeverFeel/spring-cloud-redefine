@@ -15,6 +15,7 @@ public class ConfigClinetController {
 
     @GetMapping("/getConfig")
     public String getConfig(){
+        System.out.println(configProperties.getClass());
         return configProperties.getConfig();
     }
 

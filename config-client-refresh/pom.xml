@@ -12,6 +12,7 @@
     <artifactId>config-client-refresh</artifactId>
 
     <dependencies>
+        <!-- spring cloud config客户端依赖的包-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-client</artifactId>

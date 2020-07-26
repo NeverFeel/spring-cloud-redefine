@@ -9,9 +9,9 @@ import java.io.Serializable;
 
 @Component
 @RefreshScope
+@ConfigurationProperties(prefix = "cn.springcloud.book")
 public class ConfigProperties {
 
-    @Value("${cn.springcloud.book.config}")
     private String config;
 
     public String getConfig() {
