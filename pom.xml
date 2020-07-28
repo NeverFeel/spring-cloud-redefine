@@ -16,6 +16,8 @@
         <module>config-server</module>
         <module>config-client-git</module>
         <module>config-client-refresh</module>
+        <module>eureka-expend</module>
+
     </modules>
 
     <properties>
