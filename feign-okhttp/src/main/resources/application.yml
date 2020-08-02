@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+feign:
+  okhttp:
+    enabled: true
+  httpclient:
+    enabled: false
+
+spring:
+  application:
+    name: feign-okhttp

@@ -18,7 +18,10 @@
         <module>config-client-refresh</module>
         <module>eureka-expend</module>
         <module>feign-hello</module>
-
+        <module>feign-okhttp</module>
+        <module>ribbon-registry</module>
+        <module>ribbon-provider</module>
+        <module>ribbon-consumer</module>
     </modules>
 
     <properties>
